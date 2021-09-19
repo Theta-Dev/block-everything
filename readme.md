@@ -10,6 +10,15 @@ I recommend uBlock Origin ad block plugin.
 
 [Click here to add](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/RedDragonWebDesign/block-everything/master/block-everything.txt&title=Block%20Everything%21)
 
+## Add This List To Brave
+
+The Brave browser (desktop and mobile) has a built-in ad blocker.
+To add the Block Everything filter list, open Brave's adblock config under `brave://adblock`, click on *Add filter list via URL* and enter this URL:
+
+```
+https://raw.githubusercontent.com/RedDragonWebDesign/block-everything/master/block-everything.txt
+```
+
 ## What We Block
 
 The default uBlock Origin lists block most ads and tracking.
