@@ -43,6 +43,9 @@ mxtoolbox.com###ctl00_ContentPlaceHolder1_ProblemDetails_Slot_divContent:has(.de
 mxtoolbox.com###ctl00_ContentPlaceHolder1_panelPitch, #divAd_2
 filehippo.com##.video-player:has([id$="display_ad_container"])
 filehippo.com##.message-download
+duckduckgo.com###ads
+startpage.com##.widget-install-sp-container
+startpage.com/sp/adsense/search/async-ads.js
 ! [/ADS]
 
 ! FEED INLINE
@@ -347,6 +350,7 @@ wikipedia.org###mwe-pt-list-stats-nav
 ||genius.com/*/apple_music_player$subdocument
 genius.com##.apple_music_player_container
 researchgate.net##.lite-page-tooltip__content:has(.js-lite-promo)
+amazon.de##.xrayQuickView
 ! [/MISCELLANEOUS]
 
 ! ADS AND AD CONTAINERS - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
