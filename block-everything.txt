@@ -46,6 +46,7 @@ filehippo.com##.message-download
 duckduckgo.com###ads
 startpage.com##.widget-install-sp-container
 startpage.com/sp/adsense/search/async-ads.js
+metager.de##div.result.ad
 ! [/ADS]
 
 ! FEED INLINE
