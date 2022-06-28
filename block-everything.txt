@@ -266,6 +266,7 @@ mdxjs.com##.css-1kikbsc.searchable-content > div:has-text(#BlackLivesMatter →)
 go.dev##.Banner
 pkg.go.dev##.go-Banner
 www.doctrine-project.org##.stop-war-navbar
+developer.mozilla.org##.mdn-cta-container
 ! [/NON FLOATING ALERT BARS]
 
 ! jerky/nonstandard scroll wheel behavior
