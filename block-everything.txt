@@ -47,9 +47,15 @@ duckduckgo.com###ads
 startpage.com##.widget-install-sp-container
 startpage.com/sp/adsense/search/async-ads.js
 metager.de##div.result.ad
-www.danisch.de##aside[id^="Werbung"]
-www.danisch.de##.Werbelabel
-www.danisch.de###msoanchor
+danisch.de##aside[id^="Werbung"]
+danisch.de##.Werbelabel
+danisch.de###msoanchor
+danisch.de##body .bloggrid main:style(grid-row: 2 / 3 !important)
+danisch.de##body .bloggrid footer:style(grid-row: 3 / 3 !important)
+danisch.de##body .bloggrid aside#MenuLinks:style(grid-row: 4 / 4 !important)
+svelte.dev/_app/immutable/assets/stopwar-947a4798.svg
+kit.svelte.dev/_app/immutable/assets/stopwar-319f2582.svg
+svelte.dev##a[href="https://www.stopputin.net/"]
 ! [/ADS]
 
 ! FEED INLINE
