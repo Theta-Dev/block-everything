@@ -485,6 +485,8 @@ my.castandcrew.com##.MuiAppBar-positionSticky, #ProfileHeader:style(position: st
 linkedin.com##.org-sticky-top-card
 usatoday.com##.gnt_nb
 lambdatest.com##.zsiq_custommain
+piped.mha.fi##div[efy_sidebar_btn_open=""]
+piped.kavin.rocks##div[efy_sidebar_btn_open=""]
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
