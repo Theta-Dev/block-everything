@@ -54,9 +54,6 @@ danisch.de###msoanchor
 danisch.de##body .bloggrid main:style(grid-row: 2 / 3 !important)
 danisch.de##body .bloggrid footer:style(grid-row: 3 / 3 !important)
 danisch.de##body .bloggrid aside#MenuLinks:style(grid-row: 4 / 4 !important)
-svelte.dev/_app/immutable/assets/stopwar-947a4798.svg
-kit.svelte.dev/_app/immutable/assets/stopwar-319f2582.svg
-svelte.dev##a[href="https://www.stopputin.net/"]
 bank5connectonline.com##.prr-olb-widget-container:has(.prr-content-ifr)
 wikipedia.org###siteNotice
 regex101.com##.jyUE5.XNbml
@@ -292,6 +289,7 @@ pkg.go.dev##.go-Banner
 www.doctrine-project.org##.stop-war-navbar
 developer.mozilla.org##.mdn-cta-container
 reuters.com##[class^="breaking-news__container__"]
+svelte.dev##a[href="https://www.stopputin.net/"]
 ! [/NON FLOATING ALERT BARS]
 
 ! jerky/nonstandard scroll wheel behavior
@@ -338,6 +336,9 @@ ally.com###alert_banner
 ally.com##.accounts-card-mbox-footer
 ally.com##.tips--collection
 ally.com##[aria-label="Message from Ally"]
+
+! trackers/telemetry
+https://dit.whatsapp.net
 
 ! miscellaneous
 adespresso.com###black-studio-tinymce-24
@@ -389,6 +390,7 @@ researchgate.net##.lite-page-tooltip__content:has(.js-lite-promo)
 amazon.de##.xrayQuickView
 ! Reddit stickied posts are usually robotic rules reminders, not deserving of being at the top
 reddit.com##.comment:has(.moderator):has-text(AutoModerator)
+github.com##aside[aria-label="Your main branch isn't protected"]
 ! [/MISCELLANEOUS]
 
 ! ADS AND AD CONTAINERS - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
