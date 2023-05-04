@@ -1,3 +1,4 @@
+[uBlock Origin]
 ! Title: Block Everything!
 ! Homepage: https://github.com/RedDragonWebDesign/block-everything
 
@@ -56,6 +57,11 @@ danisch.de##body .bloggrid aside#MenuLinks:style(grid-row: 4 / 4 !important)
 svelte.dev/_app/immutable/assets/stopwar-947a4798.svg
 kit.svelte.dev/_app/immutable/assets/stopwar-319f2582.svg
 svelte.dev##a[href="https://www.stopputin.net/"]
+bank5connectonline.com##.prr-olb-widget-container:has(.prr-content-ifr)
+wikipedia.org###siteNotice
+regex101.com##.jyUE5.XNbml
+urbandictionary.com##.mug-ad
+quora.com##.q-box.qu-zIndex--inline_overlay:has-text(Upgrade to Quora+)
 ! [/ADS]
 
 ! FEED INLINE
@@ -80,6 +86,7 @@ youtube.com##ytd-shelf-renderer:has(#title):has-text(For you)
 youtube.com##ytd-horizontal-card-list-renderer:has(#title):has-text(People also search for)
 apnews.com##.FeedCard:has-text(DOWNLOAD THE APP)
 expedia.com##[data-stid="messaging-card"]:has-text(You could be seeing lower prices)
+youtube.com##ytd-emergency-onebox-renderer
 ! [/FEEDS]
 
 ! ARTICLE INLINE
@@ -173,6 +180,13 @@ techrepublic.com##p:has(strong:has-text(SEE:))
 hollywoodreporter.com##.injected-related-story
 washingtonpost.com##.interstitial
 parade.com##p:has-text(Related:)
+theguardian.com##gu-island:has-text(Support the Guardian from)
+express.co.uk##.two-related-articles
+express.co.uk##p:has(strong:has-text(READ MORE))
+express.co.uk##p:has(strong:has-text(DON'T MISS))
+apnews.com##[class^="Component-hubPeekEmbed-"]
+##.recirc-module
+businessinsider.com##p:has-text(/^Read /)
 ! [/ARTICLE INLINE]
 
 ! [PULL QUOTES] - giant quotes of a newspaper article's text, to give the article some visual illustration rather than just a wall of text. reading a quote twice (once as a pull quote, once in the article body) is bothersome though.
@@ -204,6 +218,7 @@ https://b.thumbs.redditmedia.com/v5kZa1VXIE63qDddS1EtMct-Zw0H_RP8thhXLuX3sSk.css
 https://b.thumbs.redditmedia.com/PgziqQhCiiKrwTLzmP9ifXbyx4epvuaSbwC02bblCNo.css
 https://b.thumbs.redditmedia.com/JuZ5Z6mZBpXH5xNBHTJ9BdFgBi2El8AiEAgw_gDWlFY.css
 https://a.thumbs.redditmedia.com/qXsn87hnyunQjBHMMKUY_RnPK7LplK5_3rT9y1-8hI0.css
+https://b.thumbs.redditmedia.com/pyMhtb-UIq_kUrq8CJEZR8fPsI36-_IKSL5u8lRmnic.css
 ! [/REDDIT]
 
 ! paywalls, premium nags, regwalls, X free articles remaining, etc.
@@ -276,6 +291,7 @@ go.dev##.Banner
 pkg.go.dev##.go-Banner
 www.doctrine-project.org##.stop-war-navbar
 developer.mozilla.org##.mdn-cta-container
+reuters.com##[class^="breaking-news__container__"]
 ! [/NON FLOATING ALERT BARS]
 
 ! jerky/nonstandard scroll wheel behavior
@@ -292,6 +308,13 @@ newstatesman.com##.clearfix
 ! anti save image overlays
 instagram.com##._9AhH0
 flickr.com##.facade-of-protection-zoom
+
+! video player junk on pause screen (dark overlay, logo, pause icon, etc.)
+espn.com##.btm-media-clients:style(opacity: 1 !important;)
+espn.com###partner-logo-btn
+ufcfightpass.com##.discovery, [data-test-id="app-logo"], .play-icon
+ufcfightpass.com###pause:style(width: 100% !important; height: 100% !important;)
+ufcfightpass.com##.dice-player-wrapper .btn-play:style(background-color: transparent !important;)
 
 ! tickers/excessive page motion
 mediabiasfactcheck.com###ticker
@@ -362,7 +385,10 @@ wikipedia.org###mwe-pt-list-stats-nav
 ||genius.com/*/apple_music_player$subdocument
 genius.com##.apple_music_player_container
 researchgate.net##.lite-page-tooltip__content:has(.js-lite-promo)
+! Amazon Prime Video spoilers
 amazon.de##.xrayQuickView
+! Reddit stickied posts are usually robotic rules reminders, not deserving of being at the top
+reddit.com##.comment:has(.moderator):has-text(AutoModerator)
 ! [/MISCELLANEOUS]
 
 ! ADS AND AD CONTAINERS - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
@@ -377,6 +403,14 @@ genius.com##div[class^='LeaderboardOrMarquee']
 genius.com##.interstitial
 online.citi.com##.cA-ada-citiFlexPayWrapper, .cA-ada-transactionOfferWrapper
 online.citi.com##.cA-ada-globalAlertContainer, .cA-ada-familyOfferContainer, offer-details
+businessinsider.com##.in-post-sticky:has(div[data-bi-ad])
+yahoo.com##[id$="-MonalixaComponent"]
+bjj-world.com##a[href="https://bjj-world.com/webjdfree"], a[href="https://bjj-world.com/webfreebjron"], a[href="https://bjj-world.com/webbot50"], a[href="https://bjj-world.com/webffound"], a[href="https://bjj-world.com/revcjkarate"]
+bjj-world.com##.tagdiv-type blockquote p:style(font-size: 20px !important;)
+bjj-world.com##.td-ss-main-sidebar
+evolve-mma.com###text-2, .facebook-like-us, author
+eztv.re##.forum_header_border_normal:has-text(WARNING)
+space.com##.post-gallery-item-ad
 
 ! COOKIE NOTICES - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 ! cookie modals
@@ -385,6 +419,8 @@ online.citi.com##.cA-ada-globalAlertContainer, .cA-ada-familyOfferContainer, off
 comicbook.com###onetrust-consent-sdk
 pubpub.org##.legal-banner-component
 lambdatest.com##.cookiesdiv
+theserverside.com###cmp-banner
+express.co.uk##.qc-cmp-cleanslate
 
 ! FLOATING - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 emerald.com##.fixed-top:style(position: absolute !important;)
@@ -485,8 +521,22 @@ my.castandcrew.com##.MuiAppBar-positionSticky, #ProfileHeader:style(position: st
 linkedin.com##.org-sticky-top-card
 usatoday.com##.gnt_nb
 lambdatest.com##.zsiq_custommain
-piped.mha.fi##div[efy_sidebar_btn_open=""]
-piped.kavin.rocks##div[efy_sidebar_btn_open=""]
+github.community###main .d-header-wrap:style(position: static !important;)
+github.community##.topic-navigation:style(position: static !important;)
+github.community##.topic-avatar:style(position: static !important;)
+theserverside.com###page-header:style(position: static !important;)
+linkedin.com##.focus-page__header:style(position: absolute !important;)
+wikipedia.org##.mw-apisandbox-toolbar:style(position: static !important;)
+reuters.com##[class^="toolbar__container___"]
+apnews.com###usntA40Toggle
+reddit.com##.pinned-controls
+reuters.com##[aria-label="My View navigation"]
+reuters.com##[class^="site-header__nav-bar__"]:style(position: static !important;)
+reuters.com##[class^="sticky-container__content-container__"]:style(position: static !important;)
+evolve-mma.com###primary-navigation:style(position: static !important;)
+evolve-mma.com###evolve_recent_posts_widget-2 > div:style(position: static !important;)
+eztv.re##.forum_header_border:style(position: static !important;)
+businessinsider.com##.sticky-toc-aside:style(position: static !important;)
 ! [/FLOATING]
 
 ! GENERIC - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
@@ -512,9 +562,62 @@ mxtoolbox.com###mdlLogin, #qualaroo_dnt_frame, .modal-backdrop
 mxtoolbox.com##html, body:style(overflow: auto !important;)
 law.com##.modal-backdrop, #reg-modal
 law.com##html, body:style(overflow: auto !important;)
-lambdatest.com###sgpb-popup-dialog-main-div-wrapper
+lambdatest.com###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 
 ! SIGN UP FOR OUR NEWSLETTER - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 hrw.org###block-signupbarblock
+evolve-mma.com##.subscribe-section
 
 ! SHARE ON SOCIAL MEDIA - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
+
+! Unsorted. Getting tired of sorting :P
+fandom.com##.page__right-rail, .fandom-sticky-header, .page-side-tools__wrapper, .marketing-notifications
+fandom.com##.main-container:style(width: unset !important;)
+fandom.com##.mw-prefs-buttons:style(position: static !important;)
+fandom.com##.ve-init-mw-desktopArticleTarget-originalContent:style(height: unset !important; overflow-y: unset !important;)
+theguardian.com##section:has(a[href*="support.theguardian.com"])
+linkedin.com###promo:upward(1)
+linkedin.com###insights:upward(1)
+linkedin.com###resources:upward(1)
+linkedin.com###recent_activity:upward(1)
+reuters.com##[data-testid="Latest Updates"]
+reuters.com##[class^="registration-prompt"]
+restofworld.org##.reading-header, .masthead, .progress-bar:style(position: relative !important;)
+restofworld.org##.pullquote
+themoscowtimes.com##.contribute-modal
+themoscowtimes.com##body:style(overflow: auto !important;)
+themoscowtimes.com##.article__related-article:upward(1)
+reuters.com##[class^="article-prompt__container"]
+wikipedia.org,wikimedia.org##img[alt="Fly transparent.gif"], img[alt="Jimbo Peeking.gif"]
+fundraiseup.com$third-party
+refactoring.guru##.prom, .russia-stop
+refactoring.guru##.sidebar:style(top: 0 !important; position: absolute !important;)
+apnews.com##[class^="imageCaption-"]:style(height: 50px !important;)
+apnews.com##.ImageGalleryCount, .embed-caption:style(padding-top: 0 !important;)
+! block stuff on amazon that influences you to buy more or buy faster
+amazon.com###gutterCartViewForm .a-section.sc-sss-box:has-text(eligible items)
+amazon.com##.sc-product-scarcity, .sc-product-availability, #availability
+amazon.com##.prime-ad-banner-content, [cel_widget_id="typ-prominentUpsellSlot-prime"]
+ruwix.com###please
+dominos.com##.st-jude-roundup, .upsell-stages--container, .js-inlineUpsellBottomContainer, .js-mainFooter, .prop65-disclaimer, .inline-upsell
+dominos.com##.pageRightColumn--checkout:style(margin-top: 0 !important;)
+dominos.com###pageContent:style(margin-top: 0 !important;)
+dominos.com##header[role="banner"]:style(position: static !important;)
+amazon.com##.prime-ad-banner-content
+evite.com##.marketing-banner
+evite.com##.section__cms-content:has-text(Featured Content)
+amazon.com##.a-section.sc-sss-box:has-text(You are getting FREE Same)
+amazon.com##.savingPriceOverride
+amazon.com##.basisPrice:upward(2)
+citi.com##.transaction-chip:has-text(Eligible for Citi)
+citi.com##app-dynamicofferalontile, dashboard-som-offer-tile, app-dynamicoffercalttile, app-dynamicoffervpbotile
+citi.com##dashboard-account-next-best:has(dashboard-account-next-offer)
+citi.com##.left-field-sticky:style(position: static !important;)
+bank5connectonline.com##.promo_msg_sdp_top_body_1, .LPMcontainer
+costco.com###order-summary-column:style(transform: unset !important;)
+costco.com###checkout-espot-v2, .rewards-block, .cash-rewards, #oo_tab
+salon.com##.layout_template_wrapper > .related_article, .left_quote
+# auto-playing video on apnews.com homepage I don't want to see
+apnews.com##.TopStories [class*="Component-videoContainer-"], .TopStories [class^="Component-videoCaptionContainer-"]
+apnews.com##.Content.WireStory [data-key="media-placeholder"]:has-text(AP Top Stories)
+themanual.com##.dt-primis--related, .b-related-links, .b-editors-recs, .b-editors-recs-title
