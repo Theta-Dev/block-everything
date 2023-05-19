@@ -393,7 +393,11 @@ researchgate.net##.lite-page-tooltip__content:has(.js-lite-promo)
 amazon.de##.xrayQuickView
 ! Reddit stickied posts are usually robotic rules reminders, not deserving of being at the top
 reddit.com##.comment:has(.moderator):has-text(AutoModerator)
+! Github repo warning
 github.com##aside[aria-label="Your main branch isn't protected"]
+! Github pronouns
+github.com##span[itemprop="pronouns"]
+github.com##.Popover section > span.flex-shrink-0.flex-auto.color-fg-muted
 ! [/MISCELLANEOUS]
 
 ! ADS AND AD CONTAINERS - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
