@@ -398,6 +398,8 @@ github.com##aside[aria-label="Your main branch isn't protected"]
 ! Github pronouns
 github.com##span[itemprop="pronouns"]
 github.com##.Popover section > span.flex-shrink-0.flex-auto.color-fg-muted
+! Annoying customer live chat
+embed.tawk.to
 ! [/MISCELLANEOUS]
 
 ! ADS AND AD CONTAINERS - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
