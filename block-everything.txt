@@ -291,6 +291,7 @@ www.doctrine-project.org##.stop-war-navbar
 developer.mozilla.org##.mdn-cta-container
 reuters.com##[class^="breaking-news__container__"]
 svelte.dev##a[href="https://www.stopputin.net/"]
+linktr.ee##[data-testid="cause-banner"]
 ! [/NON FLOATING ALERT BARS]
 
 ! jerky/nonstandard scroll wheel behavior
