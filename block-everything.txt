@@ -423,6 +423,7 @@ bjj-world.com##.td-ss-main-sidebar
 evolve-mma.com###text-2, .facebook-like-us, author
 eztv.re##.forum_header_border_normal:has-text(WARNING)
 space.com##.post-gallery-item-ad
+github.com##[data-testid="copilot-popover-button"]
 
 ! COOKIE NOTICES - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 ! cookie modals
