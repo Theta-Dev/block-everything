@@ -576,6 +576,7 @@ mxtoolbox.com##html, body:style(overflow: auto !important;)
 law.com##.modal-backdrop, #reg-modal
 law.com##html, body:style(overflow: auto !important;)
 lambdatest.com###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
+https://realpython.com/static/frontend/reader/rw.*.js
 
 ! SIGN UP FOR OUR NEWSLETTER - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
 hrw.org###block-signupbarblock
