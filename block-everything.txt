@@ -401,6 +401,11 @@ github.com##span[itemprop="pronouns"]
 github.com##.Popover section > span.flex-shrink-0.flex-auto.color-fg-muted
 ! Annoying customer live chat
 embed.tawk.to
+! Web torrent client
+https://cdn.jsdelivr.net/npm/@webtor/player-sdk-js/dist/index.min.js
+austinmeyer.com##^style:has-text(user-select)
+austinmeyer.com##^script:has-text(document.oncontextmenu)
+youtube.com###emoji-fountain
 ! [/MISCELLANEOUS]
 
 ! ADS AND AD CONTAINERS - PULL REQUEST TO WEB ANNOYANCES ULTRALIST EVENTUALLY
