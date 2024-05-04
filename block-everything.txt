@@ -91,7 +91,7 @@ youtube.com##ytd-emergency-onebox-renderer
 ! junk in blog posts, newspaper articles, etc.
 ! especially "related article" & "read more" & "related" links peppered mid-article for SEO reasons
 businessinsider.com##.post-content-more
-businessinsider.com##li:has-text(Visit Business Insider's homepage for more stories)
+businessinsider.com##li:has-text(Visit Business Insider\'s homepage for more stories)
 businessinsider.com##p:has-text(Read more:)
 techwalla.com##.component-article-jwplayer-wrapper:has-text(Video of the Day)
 vice.com##.abc__quote.abc__quote--blockquote:has-text(Read More)
@@ -181,7 +181,7 @@ parade.com##p:has-text(Related:)
 theguardian.com##gu-island:has-text(Support the Guardian from)
 express.co.uk##.two-related-articles
 express.co.uk##p:has(strong:has-text(READ MORE))
-express.co.uk##p:has(strong:has-text(DON'T MISS))
+express.co.uk##p:has(strong:has-text(DON\'T MISS))
 apnews.com##[class^="Component-hubPeekEmbed-"]
 ##.recirc-module
 businessinsider.com##p:has-text(/^Read /)
@@ -381,7 +381,6 @@ vanityfair.com##.consumer-marketing-unit--article-mid-content
 ||m.media-amazon.com/images/G/01/stitch/Georgetown/Book---Convenience---High/DOD/XCM_CUTTLE_ORIGIN_1233911_1235592_US_3185137_550x175.png$image
 jacobinmag.com##.po-fr__endmark.prt-x
 amazon.com###sitbReaderMessageContainer
-reddit.com###mail:before
 mediabiasfactcheck.com###super_rss_reader-4
 flickriver.com##.photo-protector
 wikipedia.org###XFDcloser-showhide
