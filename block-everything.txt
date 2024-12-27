@@ -264,7 +264,8 @@ ncbi.nlm.nih.gov##.ncbi-alerts
 nlm.nih.gov##.alert
 mayoclinic.org##.globalnotice.warning
 hightimes.com###tpbr_topbar
-sass-lang.com##.sl-c-alert--info.sl-c-alert
+sass-lang.com##.sl-c-alert
+sass-lang.com##.sl-c-pop-stripe
 zdnet.com##.breaking-news-container
 imdb.com##.banner-container
 nodejs.org##.home-blacklivesmatterblock
