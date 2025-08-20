@@ -694,3 +694,4 @@ https://cdn.jsdelivr.net/npm/@webtor/player-sdk-js/dist/index.min.js
 austinmeyer.com##^style:has-text(user-select)
 austinmeyer.com##^script:has-text(document.oncontextmenu)
 youtube.com###emoji-fountain
+bahn.expert##.MuiSnackbar-root
