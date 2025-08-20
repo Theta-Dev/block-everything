@@ -695,3 +695,4 @@ austinmeyer.com##^style:has-text(user-select)
 austinmeyer.com##^script:has-text(document.oncontextmenu)
 youtube.com###emoji-fountain
 bahn.expert##.MuiSnackbar-root
+google.*##a,div[data-item-id="place-info-links:"][jslog^="101815;"]
