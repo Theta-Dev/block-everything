@@ -697,3 +697,5 @@ youtube.com###emoji-fountain
 bahn.expert##.MuiSnackbar-root
 google.*##a[data-item-id="place-info-links:"][jslog^="101815;"]
 google.*##div[data-item-id="place-info-links:"][jslog^="101815;"]
+www.thenude.com##.age-notice
+www.thenude.com##img { filter: none !important; }
